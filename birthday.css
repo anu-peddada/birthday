@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: hsl(195, 80%, 75%);
+    background-color: hsl(293, 80%, 75%);
     color: #333;
     margin: 20px;
     text-align: center;
@@ -12,16 +12,25 @@ body {
     border-radius: 8px;     
     max-width: 600px;      
     margin: 40px auto;     
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
     color: darkblue;
+    text-shadow: 8px 0.7pc 4px lightgray
 }
 
-
+button {
+    background-color: rgb(17, 194, 67);
+    color: rgb(128, 0, 0);;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
 
 p {
+    color: rgb(69, 13, 198);
     font-size: 16px;
     line-height: 1.5;
 }
