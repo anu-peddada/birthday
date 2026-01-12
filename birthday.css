@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(195, 80%, 75%);
+    color: #333;
+    margin: 20px;
+    text-align: center;
+}
+
+.white-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;     
+    max-width: 600px;      
+    margin: 40px auto;     
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: darkblue;
+}
+
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
