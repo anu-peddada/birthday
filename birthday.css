@@ -1,18 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: hsl(293, 80%, 75%);
-    color: #333;
-    margin: 20px;
+    background-color: white;
+    color: #e47cc6;
+    margin: 0;
+    min-height: 100vh;
     text-align: center;
+
+    background-image: url('background.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 .white-box {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     padding: 20px;
-    border-radius: 8px;     
-    max-width: 600px;      
-    margin: 40px auto;     
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: px;     
+    max-width: 300px;      
+    margin: 0;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -21,8 +32,8 @@ h1 {
 }
 
 button {
-    background-color: rgb(17, 194, 67);
-    color: rgb(128, 0, 0);;
+    background-color: rgb(214, 236, 85);
+    color: rgb(18, 16, 188);;
     padding: 10px 20px;
     border-radius: 40px;
     cursor: pointer;
@@ -30,7 +41,7 @@ button {
 }
 
 p {
-    color: rgb(69, 13, 198);
+    color: rgb(185, 54, 199);
     font-size: 16px;
     line-height: 1.5;
 }
